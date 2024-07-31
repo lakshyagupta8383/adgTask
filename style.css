@@ -28,61 +28,12 @@
 #category a:hover{
     color: rgba(145, 100, 17, 0.712);
 }
-#country {
-    position: relative;
-    display: inline-block;
-}
-#country > a {
-    height: 6em;
-    width: 100vw;
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-/* #drop_arrow {
-    margin-left: 0.5em;
-} */
-#dropdown {
-    display: none;
-    position: absolute;
-    background-color: black;
-    border-radius: 0.5rem;
-    top: 100%;
-    left: 42%;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-#dropdown li {
-    list-style-type:none;
-    width: 100%;
-}
-#dropdown li div {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    cursor: pointer;
-}
-#dropdown li div:hover {
-    background-color: rgba(145, 100, 17, 0.712);
-}
-#country:hover #dropdown {
-    display: block;
-}
-
-#btn{
-    padding: 1px;
+/* #btn{ */
+/*     padding: 1px;
     background-color: aliceblue;
     color: black;
     border: 2px solid  black;
-}
+} */
 #check{
     display: none;
 }
@@ -134,6 +85,52 @@
     align-items: center;
     color: white;
     background-color: black;
+}
+#country {
+    position: relative;
+    display: inline-block;
+}
+#country > a {
+    height: 6em;
+    width: 100vw;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#dropdown {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border-radius: 0.5rem;
+    top: 100%;
+    left: 45%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+#dropdown li {
+    list-style-type:none;
+    width: 100%;
+}
+#dropdown li div {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+#dropdown li div:hover {
+    background-color: rgba(145, 100, 17, 0.712);
+}
+#country:hover #dropdown {
+    display: block;
+    transition:0.5s;
 }
 .cards-container {
     justify-content: space-between;
