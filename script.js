@@ -19,7 +19,7 @@ countryLinks.forEach(link => {
             currentCountry='in';
         }
         else if(selectedCountry=='uk'){
-            currentCountry='uk';
+            currentCountry='gb';
         }
         else if(selectedCountry='canada'){
             currentCountry='ca';
